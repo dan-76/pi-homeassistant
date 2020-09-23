@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /home/pi/homeassistant &&
-source bin/activate &&
+. /home/pi/homeassistant/bin/activate &&
 hass --open-ui
